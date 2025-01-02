@@ -10,7 +10,7 @@ const AuthLeft = () => {
       <img
         src={subtract}
         alt={"logo"}
-        className="absolute left-0 bottom-0 w-[300px] aspect-square"
+        className="absolute left-0 bottom-0 w-[270px] aspect-square"
       />
       <div
         className="flex rounded-xl flex-col w-full max-w-[400px] bg-gray-50"
