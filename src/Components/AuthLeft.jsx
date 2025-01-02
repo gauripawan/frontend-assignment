@@ -10,7 +10,7 @@ const AuthLeft = () => {
       <img
         src={subtract}
         alt={"logo"}
-        className="absolute left-0 bottom-0 w-[230px] aspect-square"
+        className="absolute left-0 bottom-0 w-[300px] aspect-square"
       />
       <div
         className="flex rounded-xl flex-col w-full max-w-[400px] bg-gray-50"
@@ -22,7 +22,7 @@ const AuthLeft = () => {
             AI to Detect & Autofix Bad Code
           </span>
         </div>
-        <div className="flex gap-4 justify-between items-center p-4">
+        <div className="flex gap-4 justify-between items-center p-6">
           {[
             { label: "Language Support", value: "30+" },
             { label: "Developers", value: "10K+" },
@@ -42,7 +42,7 @@ const AuthLeft = () => {
         style={{ boxShadow: "0px 0px 24px rgba(8, 23, 53, 0.16)" }} // Added drop shadow
       >
         <div className="flex justify-between min-w-40">
-          <img src={card} alt={"graph"} className="cursor-pointer" />
+          <img src={card} alt={"graph"} className="cursor-pointer size-12" />
           <div className="flex flex-col">
             <div className="flex items-center text-primary text-[#0049c6]">
               <ArrowLongUpIcon className="w-5" /> 
@@ -54,7 +54,7 @@ const AuthLeft = () => {
         <div>
           <div className="flex flex-col">
             <span className="font-semibold">Issues Fixed</span>
-            <span className="font-semibold text-2xl">500K+</span>
+            <span className="font-bold text-2xl">500K+</span>
           </div>
         </div>
       </div>
