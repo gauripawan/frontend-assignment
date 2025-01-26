@@ -72,7 +72,7 @@ const Home = () => {
   };
   return (
     <Layout>
-      <div className="p-2 bg-gray-100" >
+      <div className="p-5 bg-gray-50" >
         <div className="bg-white w-full rounded-xl border flex flex-col">
           <div className="flex flex-col gap-4 border-b p-4">
             <div className="flex justify-between items-center flex-wrap gap-4">
@@ -81,7 +81,7 @@ const Home = () => {
                 <span className="text-xs">33 total repositories</span>
               </div>
               <div className="flex gap-2">
-                <button className="flex text-xs items-center p-2 px-4 gap-2 rounded-md border font-semibold">
+                <button className="flex text-xs items-center p-2 px-4 gap-2 rounded-md border font-normal text-gray-700">
                   <ArrowPathIcon className="size-4" />
                   Refresh All
                 </button>
@@ -117,7 +117,7 @@ const Home = () => {
                 >
                   <div className="flex gap-2 items-center font-semibold">
                     <span>{item.title}</span>
-                    <span className="bg-[#EFF8FF] border border-[#B2DDFF] text-primary text-xs px-2 rounded-full">
+                    <span className="bg-[#EFF8FF] border border-[#B2DDFF] text-primary text-xs px-2 rounded-full text-[#0049c6]">
                       {item.type}
                     </span>
                   </div>
